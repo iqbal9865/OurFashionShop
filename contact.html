@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact US</title>
+        <link rel="stylesheet" href="./csstwo/all.min.css">
+        <link rel="stylesheet" href="./csstwo/style.css">
+        <link rel="stylesheet" href="./csstwo/responsive.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800;900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>  
+    <body>
+
+        <header>
+            <nav id="navId" class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <h2>LOGO</h2>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navi collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Shops & Deals
+                                </a>
+    
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" tabindex="-1">About US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html" tabindex="-1">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form action="" class=" ">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <input id="search-input" class="form-control me-2" type="search" placeholder="Search Items"
+                                    aria-label="Search">
+                                <button style="background-color: rgb(255, 17, 144);" id="search-btn" class="btn btn-success"
+                                    type="submit"><i class="fas fa-search-location"></i></button>
+                            </div>
+                            <div class="login-reg d-flex  mt-2">
+                                <a href="">LOGIN</a> <span>/</span> <a href="">REGISTRATION</a>
+                                <a href=""><i style="color: rgb(255, 17, 144);" id="shopping-icon"
+                                        class="fas fa-cart-plus"></i></a>
+                                <a id="wishlist-icon" style="color: rgb(255, 17, 144);" href="#"><i
+                                        class="fas fa-heart"></i></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container mt-5">
+            <h1>Contact US</h1>
+            <p>We are here to help and answer any questions you might have. Feel free to get in touch with us.</p>
+
+            <div class="contact-box">
+                <div class="left-contact">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>City University, Khagan, Ashulia, Savar</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>017xxxxxxxxx</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>contact@xxxxx.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-contact">
+                    <h4>Send a Message</h4>
+                    <form action="#">
+                        <label for="fname">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your name..">
+                    
+                        <label for="lname">E-mail</label>
+                        <input type="text" id="lname" name="email" placeholder="Enter your Email..">                        
+                          
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Enter Your text here.." style="height:200px"></textarea>
+                        
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    </body>
+</html>

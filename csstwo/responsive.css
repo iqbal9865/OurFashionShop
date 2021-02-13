@@ -1,0 +1,22 @@
+@media screen and (max-width: 720px){
+.contact-box{
+    display: block;
+    margin: 50px 0 0 0;
+}
+.left-contact{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.left-contact p{
+    text-align: center;
+}
+.right-contact{
+    width: 100%;
+    margin: 0;
+}
+input[type=text], 
+textarea{
+    box-sizing: border-box;
+}
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    text-transform: uppercase;
+}
+.container h1,
+.container p{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact-box{
+    background: #F7F7F7;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.left-contact{
+    width: 30%;
+    margin: 100px 40px 60px 60px;
+}
+.left-contact .box{
+    margin-bottom: 30px;
+}
+.left-contact .box i{
+    font-size: 40px;
+    margin-right: 10px;
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 50%;
+}
+.left-contact p{
+    text-align: left;
+}
+.left-contact h3{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.right-contact{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px;
+    background-color: #FCEAE8;
+    padding: 20px;
+}
+
+.right-contact h4{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+input[type=text], 
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+  input[type=submit] {
+    background-color: #FF1190;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #FF1190;
+    border: 1px solid #FF1190;
+  }
+  
