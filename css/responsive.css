@@ -1,0 +1,44 @@
+@media screen and (max-width: 980px){
+    section{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    section .content{
+        text-align: center;
+        padding: 40px;
+    }
+    section .image-section{
+        margin-top: 30px;
+    }
+    section .image-section img{
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    section .social{
+        margin-top: 25px;
+        text-align: center;
+    }
+    section .social a{
+        font-size: 35px;
+    }
+
+
+    section2{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    section2 .content2{
+        text-align: center;
+        padding: 40px 40px 0 40px;
+    }
+    section2 .image-section2{
+        display: none;
+    }
+    section2 .social2{
+        margin-top: 25px;
+        text-align: center;
+    }
+    section2 .social2 a{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+} 
+title1 .title-section h2{
+    margin-top: 30PX;
+    font-size: 30PX;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+title1 .title-section h4{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+section{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 60px;
+}
+section .content{
+    flex: 2;
+    text-align: justify;
+    padding: 40px 100px 40px 40px;
+    background-color: #FCEAE8;
+    border-radius: 5px;
+}
+section .content h2{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+section .content h4{
+    margin-top: 5px;
+    font-size: 17px;
+}
+section .content .artical{
+    margin-top: 10px;
+}
+section .content .artical p{
+    font-size: 16px;
+    font-family: Verdana;
+}
+section .image-section{
+    flex: 1;
+    margin: auto;
+    background: #F7F7F7;
+    border-radius: 5px;
+}
+section .image-section img{
+    width: 120%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: -50px;
+}
+section .content .button{
+    margin-top: 20px;
+}
+section .content .button [type="submit"]{
+    color: #ffffff;
+    background-color: #FF1190;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+section .content .button [type="submit"]:hover{
+    color: #FF1190;
+    background-color: #ffffff;
+    border: 1px solid #FF1190;
+    transition: 0.5s ease;
+}
+section .social{
+    margin-top: 50px;
+}
+section .social a{
+    font-size: 40px;
+    color: #FF1190;
+    padding: 0px 5px;
+}
+section .social a:hover{
+    color: #ffffff;
+    background-color: #FF1190;
+    border-radius: 5px;
+    transition: 0.1s ease-in;
+}
+
+
+section2{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 60px;
+}
+section2 .image-section2{
+    flex: 1;
+    margin: auto;
+    background: #F7F7F7;
+    border-radius: 5px;
+    z-index: 1;
+}
+section2 .image-section2 img{
+    width: 120%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+section2 .content2{
+    flex: 2;
+    text-align: justify;
+    padding: 40px 40px 40px 100px;
+    background-color: #FCEAE8;
+    border-radius: 5px;
+}
+section2 .content2 h2{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+section2 .content2 h4{
+    margin-top: 5px;
+    font-size: 17px;
+}
+section2 .content2 .artical2{
+    margin-top: 10px;
+}
+section2 .content2 .artical2 p{
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+section2 .content2 .button2{
+    margin-top: 20px;
+}
+section2 .content2 .button2 [type="submit"]{
+    color: #ffffff;
+    background-color: #FF1190;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+section2 .content2 .button2 [type="submit"]:hover{
+    color: #FF1190;
+    background-color: #ffffff;
+    border: 1px solid #FF1190;
+    transition: 0.5s ease;
+}
+section2 .social2{
+    margin-top: 50px;
+}
+section2 .social2 a{
+    font-size: 40px;
+    color: #FF1190;
+    padding: 0px 5px;
+}
+section2 .social2 a:hover{
+    color: #ffffff;
+    background-color: #FF1190;
+    border-radius: 5px;
+    transition: 0.1s ease-in;
+}
