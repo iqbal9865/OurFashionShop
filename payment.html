@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="./assetsForPayment/all.css" rel="stylesheet" id="bootstrap-css">
+	<link href="./assetsForPayment/style.css" rel="stylesheet" id="bootstrap-css">
+    <script src="./assetsForPayment/style.js"></script>
+    <script src="./assetsForPayment/style.min.js"></script>
+
+</head>
+<body>
+<div class="container py-5">
+    <!-- For demo purpose -->
+    <div class="row mb-4">
+        <div class="col-lg-8 mx-auto text-center">
+            <h1 class="display-6">Payment Form</h1>
+        </div>
+    </div> <!-- End -->
+    <div class="row">
+        <div class="col-lg-6 mx-auto">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
+                        <!-- Credit card form tabs -->
+                        <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-3">
+                            <li class="nav-item"> <a data-toggle="pill" href="#credit-card" class="nav-link active " > Nagad </a> </li>
+                            <li class="nav-item"> <a data-toggle="pill" href="#paypal" class="nav-link " > Bkash </a> </li>
+                            <li class="nav-item"> <a data-toggle="pill" href="#net-banking" class="nav-link " >  Banking </a> </li>
+                        </ul>
+                    </div> <!-- End -->
+                    <!-- Credit card form content -->
+                    <div class="tab-content">
+                        <!-- credit card info-->
+                        <div id="credit-card" class="tab-pane fade show active pt-3">
+                            <form role="form">
+                                <div class="form-group"> <label for="nagadNumber">
+                                        <h6>Nagad Number</h6>
+                                    </label> <input type="text" name="nagadNumber" placeholder="Enter Your Nagad Number" required class="form-control "> </div>
+                                <div class="form-group"> <label for="transID">
+                                        <h6>Trans ID</h6>
+                                    </label>
+                                    <div class="input-group"> 
+                                    	<input type="text" name="transID" placeholder="Enter Trans ID" class="form-control " required>
+                                        <div class="input-group-append"> </div>
+                                    </div>
+                                </div>
+                               <div class="form-group"> <label for="transID">
+                                        <h6>Tnter Payment Amount</h6>
+                                    </label>
+                                    <div class="input-group"> 
+                                    	<input type="text" name="Amount" placeholder="Enter Your Payment Amount" class="form-control " required>
+                                        <div class="input-group-append"> </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer"> <button type="button" class="subscribe btn btn-primary btn-block shadow-sm" style="background-color: rgb(255, 17, 144);"> Submit Payment </button>
+                                	</p>
+                        <p class="text-muted"> Nagad Payment Number: +880-1316-584102<br>
+                        	Instruction:<br> 1. Do payment from your Nagad Account<br> 2. Give your <span style="color: red;">Nagad Number, Trans ID and Amount</span></p>
+                            </form>
+                        </div>
+                    </div> <!-- End -->
+                    <!-- Paypal info -->
+                    <div id="paypal" class="tab-pane fade pt-3">
+                        <form role="form">
+                                <div class="form-group"> <label for="nagadNumber">
+                                        <h6>Bkash Number</h6>
+                                    </label> <input type="text" name="nagadNumber" placeholder="Enter Your Bkash Number" required class="form-control "> </div>
+                                <div class="form-group"> <label for="transID">
+                                        <h6>Trans ID</h6>
+                                    </label>
+                                    <div class="input-group"> 
+                                    	<input type="text" name="transID" placeholder="Enter Trans ID" class="form-control " required>
+                                        <div class="input-group-append"> </div>
+                                    </div>
+                                </div>
+                               <div class="form-group"> <label for="transID">
+                                        <h6>Tnter Payment Amount</h6>
+                                    </label>
+                                    <div class="input-group"> 
+                                    	<input type="text" name="Amount" placeholder="Enter Your Payment Amount" class="form-control " required>
+                                        <div class="input-group-append"> </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer"> <button type="button" class="subscribe btn btn-primary btn-block shadow-sm" style="background-color: rgb(255, 17, 144);"> Submit Payment </button></div>
+                                	</p>
+                        <p class="text-muted"> Bkash Payment Number: +880-1316-584102<br>
+                        	Instruction:<br> 1. Do payment from your Bkash Account<br> 2. Give your <span style="color: red;">Bkash Number, Trans ID and Amount</span></p>
+                            </form>
+                    </div>
+                    <!-- End -->
+                    <!-- bank transfer info -->
+                    <div id="net-banking" class="tab-pane fade pt-3">
+                        <div class="form-group "> <label for="Select Your Bank">
+                                <h6>Select your Bank</h6>
+                            </label> <select class="form-control" id="ccmonth">
+                                <option value="" selected disabled>--Please select your Bank--</option>
+                                <option>DBBL</option>
+                                <option>Ashia Bank</option>
+                                
+                            </select> 
+                        </div>
+                        <form role="form">
+                                <div class="form-group"> <label for="Bname">
+                                        <h6>Your Name</h6>
+                                    </label> <input type="text" name="Bname" placeholder="Enter Your Name" required class="form-control "> </div>
+                                <div class="form-group"> <label for="transID">
+                                        <h6>Account Number</h6>
+                                    </label>
+                                    <div class="input-group"> 
+                                    	<input type="text" name="transID" placeholder="Enter Account Number" class="form-control " required>
+                                        <div class="input-group-append"> </div>
+                                    </div>
+                                </div>
+                               <div class="form-group"> <label for="transID">
+                                        <h6>Payment Amount</h6>
+                                    </label>
+                                    <div class="input-group"> 
+                                    	<input type="text" name="Amount" placeholder="Enter Your Payment Amount" class="form-control " required>
+                                        <div class="input-group-append"> </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer"> <button type="button" class="subscribe btn btn-primary btn-block shadow-sm" style="background-color: rgb(255, 17, 144);"> Submit Payment </button></div>
+                                	</p>
+                       
+                            </form>
+                        
+                        
+                    </div> <!-- End -->
+                    <!-- End -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -29,6 +29,16 @@ let product = [
         name: "Perx Shirt",
         price: 115,
         inCart: 0  
+    },
+    {
+        name: "Air Dry Marino Wool",
+        price: 120,
+        inCart: 0  
+    },
+    {
+        name: "Mast & Harbour",
+        price: 150,
+        inCart: 0  
     }
 ]
 
